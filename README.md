@@ -1,0 +1,1 @@
+This just sets up rails with devise and restricts user sign ups to @thoughtworks.com email addresses via model validation. This currently works for a dev environment with mailcatcher catching emails. You'll need to set up emails for your actual environment and set the 'from' field in the devise config.
